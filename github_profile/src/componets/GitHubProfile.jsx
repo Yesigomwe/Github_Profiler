@@ -36,7 +36,7 @@ const GitHubProfile = ({ userData, onBackToSearch }) => {
                 <div id="stats">
 
                     <div id="followers">
-                        <p id = "count">{userData.followers}</p>
+                        <p id="count">{userData.followers}</p>
                         <div id="follower_name">
                             <img id="follower_image" src="src/assets/followers_icon.png" alt="" />
                             <p>FOLLOWERS</p>
@@ -44,23 +44,21 @@ const GitHubProfile = ({ userData, onBackToSearch }) => {
 
                     </div>
 
-                    <div id = "following">
-                        <p id = "count"> {userData.following}</p>
-                        <div id ="following_name">
-                            <img id= "following_image"src="src/assets/following_icon.png" alt="" />
+                    <div id="following">
+                        <p id="count"> {userData.following}</p>
+                        <div id="following_name">
+                            <img id="following_image" src="src/assets/following_icon.png" alt="" />
                             <p>FOLLOWING</p>
                         </div>
                     </div>
 
-                    <div id = "repositories">
-                    <p id = "count">{userData.public_repos}</p>
+                    <div id="repositories">
+                        <p id="count">{userData.public_repos}</p>
 
-                    <div id="repository_name">
-                        <img id = "repository_image" src="src/assets/Repository.png" alt="" />
-                        <p>PUBLIC REPOSITORIES</p>
-                    </div>
-
-
+                        <div id="repository_name">
+                            <img id="repository_image" src="src/assets/Repository.png" alt="" />
+                            <p>PUBLIC REPOSITORIES</p>
+                        </div>
                     </div>
 
                 </div>
