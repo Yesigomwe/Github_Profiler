@@ -1,0 +1,116 @@
+#header {
+    width: 1440px;
+    height: 80px;
+    background-color: #3E4042;
+    color:white;
+    position: sticky;
+}
+
+#github-profile-root {
+    border: 2px solid white;
+    display: flex;
+    flex-direction: column;
+    background-color: #2B3137;
+    width: 1440px;
+    height: 1024px;
+    align-items: center;
+    justify-content: start;
+
+
+}
+
+#profile-image {
+    border-radius: 50%;
+    width: 250px;
+    height: 250px;
+    padding: 20px;
+}
+
+#prof-link {
+    font-size: 20px;
+    color: #2165E9;
+    font-weight: bolder;
+}
+
+#name,
+#count {
+    font-size: 30px;
+    color: white;
+    font-weight: bold;
+}
+
+#name-block {
+    display: flex;
+    flex-direction: column;
+    height: 150px;
+    width: 500px;
+    justify-content: center;
+    align-items: center;
+}
+
+#stats {
+    display: flex;
+    flex-direction: row;
+    width: 1140px;
+    height: 272px;
+    justify-content: space-around;
+    padding: 40px;
+}
+
+#metadata {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 20px;
+}
+
+#location {
+    display: flex;
+    flex-direction: row;
+    width: 124px;
+    height: 35.5px;
+    gap: 5px;
+    align-items: center;
+}
+
+#location_icon,
+#follower_image,
+#joined_icon,
+#following_image,
+#repository_image {
+    width: 20px;
+    height: 20px;
+}
+
+
+#joined {
+    display: flex;
+    flex-direction: row;
+    width: auto;
+    height: 35.5px;
+    gap: 5px;
+    align-items: center;
+}
+
+#follower_name,
+#following_name,
+#repository_name{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 5px;
+    width: auto;
+    font-weight: bolder;
+}
+
+#followers,
+#following,
+#repositories{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #3E4042;
+    width: 325px;
+    height: 250px;
+    justify-content: center;
+    border-radius: 10px;}
